@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6DD1A97200AB21000A13F73 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD1A96200AB21000A13F73 /* GoalCell.swift */; };
+		A6DD1A99200AB91900A13F73 /* GoalTyoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD1A98200AB91900A13F73 /* GoalTyoe.swift */; };
 		A6E1A516200A2DD900CDDE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1A515200A2DD900CDDE0B /* AppDelegate.swift */; };
 		A6E1A518200A2DD900CDDE0B /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1A517200A2DD900CDDE0B /* GoalsVC.swift */; };
 		A6E1A51B200A2DD900CDDE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E1A519200A2DD900CDDE0B /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6DD1A96200AB21000A13F73 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		A6DD1A98200AB91900A13F73 /* GoalTyoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTyoe.swift; sourceTree = "<group>"; };
 		A6E1A512200A2DD900CDDE0B /* countertogoals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countertogoals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E1A515200A2DD900CDDE0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6E1A517200A2DD900CDDE0B /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 		A6E1A52B200A2DF600CDDE0B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A6DD1A96200AB21000A13F73 /* GoalCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 		A6E1A52D200A2E1F00CDDE0B /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				A6DD1A98200AB91900A13F73 /* GoalTyoe.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -171,7 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DD1A97200AB21000A13F73 /* GoalCell.swift in Sources */,
 				A6E1A518200A2DD900CDDE0B /* GoalsVC.swift in Sources */,
+				A6DD1A99200AB91900A13F73 /* GoalTyoe.swift in Sources */,
 				A6E1A516200A2DD900CDDE0B /* AppDelegate.swift in Sources */,
 				A6E1A51E200A2DD900CDDE0B /* countertogoals.xcdatamodeld in Sources */,
 			);
