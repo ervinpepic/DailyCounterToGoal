@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6E1A516200A2DD900CDDE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1A515200A2DD900CDDE0B /* AppDelegate.swift */; };
-		A6E1A518200A2DD900CDDE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1A517200A2DD900CDDE0B /* ViewController.swift */; };
+		A6E1A518200A2DD900CDDE0B /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1A517200A2DD900CDDE0B /* GoalsVC.swift */; };
 		A6E1A51B200A2DD900CDDE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E1A519200A2DD900CDDE0B /* Main.storyboard */; };
 		A6E1A51E200A2DD900CDDE0B /* countertogoals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6E1A51C200A2DD900CDDE0B /* countertogoals.xcdatamodeld */; };
 		A6E1A520200A2DD900CDDE0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E1A51F200A2DD900CDDE0B /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		A6E1A512200A2DD900CDDE0B /* countertogoals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countertogoals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E1A515200A2DD900CDDE0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6E1A517200A2DD900CDDE0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6E1A517200A2DD900CDDE0B /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		A6E1A51A200A2DD900CDDE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6E1A51D200A2DD900CDDE0B /* countertogoals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = countertogoals.xcdatamodel; sourceTree = "<group>"; };
 		A6E1A51F200A2DD900CDDE0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		A6E1A52C200A2DFC00CDDE0B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A6E1A517200A2DD900CDDE0B /* ViewController.swift */,
+				A6E1A517200A2DD900CDDE0B /* GoalsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E1A518200A2DD900CDDE0B /* ViewController.swift in Sources */,
+				A6E1A518200A2DD900CDDE0B /* GoalsVC.swift in Sources */,
 				A6E1A516200A2DD900CDDE0B /* AppDelegate.swift in Sources */,
 				A6E1A51E200A2DD900CDDE0B /* countertogoals.xcdatamodeld in Sources */,
 			);
