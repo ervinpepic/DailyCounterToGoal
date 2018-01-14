@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60D18D4200B7C6200CD2CD2 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60D18D3200B7C6200CD2CD2 /* CreateGoalVC.swift */; };
+		A60D18D6200B85E900CD2CD2 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60D18D5200B85E900CD2CD2 /* UIViewControllerExtensions.swift */; };
 		A6DD1A97200AB21000A13F73 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD1A96200AB21000A13F73 /* GoalCell.swift */; };
 		A6DD1A99200AB91900A13F73 /* GoalTyoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD1A98200AB91900A13F73 /* GoalTyoe.swift */; };
 		A6E1A516200A2DD900CDDE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1A515200A2DD900CDDE0B /* AppDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60D18D3200B7C6200CD2CD2 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		A60D18D5200B85E900CD2CD2 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		A6DD1A96200AB21000A13F73 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		A6DD1A98200AB91900A13F73 /* GoalTyoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTyoe.swift; sourceTree = "<group>"; };
 		A6E1A512200A2DD900CDDE0B /* countertogoals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countertogoals.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A6E1A517200A2DD900CDDE0B /* GoalsVC.swift */,
+				A60D18D3200B7C6200CD2CD2 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		A6E1A52E200A2E2700CDDE0B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A60D18D5200B85E900CD2CD2 /* UIViewControllerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -178,10 +184,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6DD1A97200AB21000A13F73 /* GoalCell.swift in Sources */,
+				A60D18D4200B7C6200CD2CD2 /* CreateGoalVC.swift in Sources */,
 				A6E1A518200A2DD900CDDE0B /* GoalsVC.swift in Sources */,
 				A6DD1A99200AB91900A13F73 /* GoalTyoe.swift in Sources */,
 				A6E1A516200A2DD900CDDE0B /* AppDelegate.swift in Sources */,
 				A6E1A51E200A2DD900CDDE0B /* countertogoals.xcdatamodeld in Sources */,
+				A60D18D6200B85E900CD2CD2 /* UIViewControllerExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
