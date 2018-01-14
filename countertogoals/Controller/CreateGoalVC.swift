@@ -41,7 +41,7 @@ class CreateGoalVC: UIViewController, UITextViewDelegate {
         if goalTextView.text != "" && goalTextView.text != "What is your wish or goal?" {
             guard let finishGoalVC = storyboard?.instantiateViewController(withIdentifier: "FinsihGoalVC")as? FinisihGoalVC else { return }
             finishGoalVC.initData(description: goalTextView.text!, type: goalType)
-            presentDetail(finishGoalVC)
+            presentingViewController?.presentSecondaruDetail(finishGoalVC)
         }
     }
     @IBAction func shortTermButtonPressed(_ sender: Any) {

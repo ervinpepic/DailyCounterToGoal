@@ -332,6 +332,9 @@
                                             <constraint firstAttribute="height" constant="35" id="JS3-Qg-zh0"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backButton:" destination="lqi-PL-lmC" eventType="touchUpInside" id="GuB-Pk-9Rz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.19745551219999999" green="0.57014973960000004" blue="0.51131184900000004" alpha="1" colorSpace="calibratedRGB"/>
